@@ -11,6 +11,6 @@ Legal documents for the @tul.builds Instagram comment replies (comment a keyword
 - **[Data Deletion Instructions](./data-deletion.html)**: how to get your data deleted
 - **[Terms of Use](./terms.html)**: the free service, the documents, liability
 
-Last updated: 2026-09-24.
+Last updated: 2026-10-02.
 
 Questions: supiphatk17@gmail.com or DM @tul.builds on Instagram.

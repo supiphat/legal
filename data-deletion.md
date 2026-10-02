@@ -1,8 +1,8 @@
 # Data Deletion Instructions: @tul.builds comment replies
 
-**Last updated:** 2026-09-24
+**Last updated:** 2026-10-02
 
-**What changed (2026-09-24):** these pages moved to a shorter address, supiphat.github.io/legal. The old address, supiphat.github.io/tul-builds-legal, no longer works.
+**What changed (2026-10-02):** we now list everything the script keeps. Besides the comment ID and your user ID, it also stores when it handled your comment and what it did. Nothing it stores, or how we use it, has changed.
 
 This page explains how to get your data deleted if you commented a keyword on an **@tul.builds** Instagram post and got an automated message and reply. The full picture is in the [Privacy Policy](./privacy.html).
 
@@ -11,16 +11,18 @@ This page explains how to get your data deleted if you commented a keyword on an
 
 ## What we hold about you
 
-At most, two things, in local files on the operator's own computer:
+At most, four things for each comment we answered, in local files on the operator's own computer:
 
-- the **comment ID** of the comment we replied to, and
-- your **Instagram-scoped user ID** (a number Meta gives our account for you; not your username).
+- the **comment ID** of the comment we replied to,
+- your **Instagram-scoped user ID** (a number Meta gives our account for you; not your username),
+- **when** the script handled your comment (not when you posted it), and
+- **what it did**: sent you the link, or a note that sending failed or couldn't be confirmed.
 
 These are deleted automatically after **30 days** anyway. If you replied **STOP**, your Instagram-scoped user ID is also on a do-not-message list until you ask us to remove it or you comment a keyword again.
 
 If you asked us by DM to delete your data, your Instagram-scoped user ID is also kept with that request until we've completed it.
 
-We don't store your comment text or your username.
+We don't store your comment text, your username or when you posted your comment.
 
 ---
 
@@ -84,5 +86,6 @@ Email **supiphatk17@gmail.com** or DM **@tul.builds**.
 
 Older change notes are listed here, newest first.
 
+- **2026-09-24 (second update):** these pages moved to a shorter address, supiphat.github.io/legal. The old address, supiphat.github.io/tul-builds-legal, no longer works.
 - **2026-09-24 (update):** if you replied STOP, your ID now also comes off the do-not-message list when you comment a keyword again, because that comment counts as a new request. This applies only to comments made after this version was published.
 - **2026-09-24:** first published version.

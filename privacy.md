@@ -1,10 +1,10 @@
 # Privacy Policy: @tul.builds comment replies
 
-**Last updated:** 2026-09-24
+**Last updated:** 2026-10-02
 
-**Effective:** 2026-09-24
+**Effective:** 2026-10-02
 
-**What changed (2026-09-24):** the private message is shorter: "hey! here's the guide 👇" and the link. When it carries the opt-out note and the link to this policy, each now sits on its own line, and the policy link uses a shorter address, supiphat.github.io/legal/privacy. The old address, supiphat.github.io/tul-builds-legal, no longer works. The new message applies only to comments made after this version was published.
+**What changed (2026-10-02):** we now list every field the script keeps. Besides the comment ID and your user ID, it also stores when it handled your comment and what it did. Nothing it stores, or how we use it, has changed.
 
 This policy explains what happens to your information when you comment a keyword on a post by the Instagram account **@tul.builds** and get a message and a reply back. It covers that one thing only.
 
@@ -14,7 +14,7 @@ This policy explains what happens to your information when you comment a keyword
 
 > - If you comment a post's keyword, an automated script sends you **one** private message with a link to a free document and replies to your comment.
 > - We read your comment only to check for the keyword. We don't store your comment or your username.
-> - We store just two things: the **comment ID** and your **Instagram-scoped user ID**, in local files on the operator's own computer. They're deleted automatically after **30 days**, unless you reply STOP or have an open privacy request with us.
+> - We store four things for each comment we answer: the **comment ID**, your **Instagram-scoped user ID**, **when** the script handled it, and **what it did** (sent the link, or a note that sending failed or couldn't be confirmed). Nothing else. They sit in local files on the operator's own computer and are deleted automatically after **30 days**, unless you reply STOP or have an open privacy request with us.
 > - Reply **STOP** and you won't be messaged again, unless you later comment a keyword again, which counts as a new request.
 > - No follow-up messages. The only other message you could get from us is a personal answer to a privacy request you send.
 > - No selling, no advertising, no profiling, no link tracking, and the reply script uses no AI.
@@ -62,6 +62,8 @@ If your comment doesn't contain the keyword, nothing happens.
 | Text of messages you send to @tul.builds | Read in memory only to check for STOP or a privacy request. The conversation itself stays in Instagram (section 6) | **No** |
 | Comment ID | Kept to record which comment was answered | Yes, 30 days |
 | Your Instagram-scoped user ID | Kept alongside the comment ID; also used to check whether we've messaged you in the last 30 days, for the STOP list (section 8) and to track a privacy request you send by DM | Yes, 30 days (longer only on the STOP list, or while your privacy request is open) |
+| When the script handled your comment | The date and time the script dealt with it, not when you posted. Used for the 30-day deletion and the 30-day message check | Yes, 30 days |
+| What the script did | A short status: link sent, link sent and your comment replied to, or sending failed or couldn't be confirmed. Used so the 30-day check counts only messages that went out | Yes, 30 days |
 
 An Instagram-scoped user ID is a number Meta gives our account to identify you. It isn't your username and other apps see a different number for you.
 
@@ -73,7 +75,7 @@ We keep **aggregate counts** (for example, how many links were sent). These cont
 
 **Purpose:** to send you the document you asked for by commenting the keyword, and to not message you after you reply STOP, unless you later comment a keyword again.
 
-We keep the comment ID and user ID for 30 days for three reasons: so the script never answers the same comment twice or messages you twice for the same post; so it can tell whether it has messaged you in the last 30 days, and add the policy link and opt-out note only if it hasn't; and so we can find your record if you make a privacy request. That 30-day check uses only these stored IDs and their dates, nothing extra.
+We keep these four things for 30 days for three reasons: so the script never answers the same comment twice or messages you twice for the same post; so it can tell whether it has messaged you in the last 30 days, and add the policy link and opt-out note only if it hasn't; and so we can find your record if you make a privacy request. That 30-day check uses only these stored records, nothing extra.
 
 **Lawful basis:** legitimate interest, meaning our interest in answering a request you made publicly by commenting the keyword. This is PDPA section 24(5) in Thailand and Article 6(1)(f) of the GDPR in the EU and UK. We think this is fair to you because you asked for the document, we keep almost nothing, and you can stop it at any time.
 
@@ -110,14 +112,14 @@ We don't give your data to anyone for their own use. These companies are involve
 - **Google, United States.** Only if you email us: your email is held in the operator's Gmail account, under Google's Privacy Policy: https://policies.google.com/privacy
 - **Anthropic, United States.** Only if you send us a privacy request: the operator's AI assistant (Claude) may read the request, and the username or ID it's about, to help handle it, under Anthropic's Privacy Policy: https://www.anthropic.com/legal/privacy
 
-**Transfers.** The operator's computer is in Thailand. The IDs the script stores stay on that computer and outside any cloud backup, so they are not transferred out of Thailand. A privacy request you email or DM us is held by Google or Meta, and may be read through Anthropic, in the United States. The data on Instagram itself is held by Meta in the US or wherever Meta processes it, under Meta's terms, not ours.
+**Transfers.** The operator's computer is in Thailand. What the script stores stays on that computer and outside any cloud backup, so it is not transferred out of Thailand. A privacy request you email or DM us is held by Google or Meta, and may be read through Anthropic, in the United States. The data on Instagram itself is held by Meta in the US or wherever Meta processes it, under Meta's terms, not ours.
 
 ---
 
 ## 7. How long we keep it
 
 - **Comment text, username, comment timestamp and the text of your messages:** not stored by the script. Gone once the script finishes.
-- **Comment ID and Instagram-scoped user ID:** deleted automatically after **30 days**.
+- **Comment ID, Instagram-scoped user ID, when the script handled your comment and what it did:** deleted automatically after **30 days**.
 - **STOP list entry:** kept until you ask us to remove it or you comment a keyword again (see section 8).
 - **Records of a privacy request:** if you DM us a request, your Instagram-scoped user ID and the date are kept until we complete it. Once any request is closed, we keep only the type of request and its dates, as a reminder to delete the request thread 12 months later. That record is gone within 13 months.
 - **Aggregate counts:** kept, but contain no personal data.
@@ -159,17 +161,17 @@ If you're in the EU or UK, you can ask to access, correct or delete your data, r
 
 ### 9.3 Reviewing and changing your data (California and elsewhere)
 
-Anyone, wherever you are, can ask what we hold about you and ask us to correct or delete it, using the same email or DM. Given how little we store, the answer is usually a comment ID and a user ID, or nothing at all.
+Anyone, wherever you are, can ask what we hold about you and ask us to correct or delete it, using the same email or DM. Given how little we store, the answer is usually a comment ID, a user ID, when the script handled your comment and what it did, or nothing at all.
 
 ---
 
 ## 10. Security
 
-- The only stored data is comment IDs and Instagram-scoped user IDs, with the dates we handled them, kept in local files on the operator's own computer.
+- The only data stored about you is comment IDs, Instagram-scoped user IDs, the dates we handled them, what the script did with each comment, and the type of any privacy request. It's kept in local files on the operator's own computer.
 - The computer's disk is fully encrypted, and the script refuses to run if encryption is ever turned off.
 - The stored files can be read only by the operator's own user account.
 - The Instagram access token is kept in a separate owner-only file, outside any code repository or backup.
-- The stored IDs are never copied to a cloud service or backup: their folder sits outside every synced or backed-up location, and the script refuses to run if it detects the folder in a synced, backed-up or version-controlled location.
+- The stored records are never copied to a cloud service or backup: their folder sits outside every synced or backed-up location, and the script refuses to run if it detects the folder in a synced, backed-up or version-controlled location.
 
 **If something goes wrong.** If there's a breach of personal data, we'll notify the PDPC within 72 hours of finding out, unless the breach is unlikely to put anyone's rights at risk, and tell affected people without delay where the risk is high, as PDPA section 37 requires.
 
@@ -218,5 +220,6 @@ Because we get your data from Instagram rather than from you directly, the first
 
 Older change notes are listed here, newest first.
 
+- **2026-09-24 (second update):** the private message is shorter: "hey! here's the guide 👇" and the link. When it carries the opt-out note and the link to this policy, each now sits on its own line, and the policy link uses a shorter address, supiphat.github.io/legal/privacy. The old address, supiphat.github.io/tul-builds-legal, no longer works. The new message applies only to comments made after this version was published.
 - **2026-09-24 (update):** the private message is now shorter plain text. It shows the link to this policy and how to opt out on the first message we send you, and again if more than 30 days have passed since our last one. If you reply STOP and later comment a keyword again, that comment now counts as a new request: you get the message and come off the do-not-message list. These changes apply only to comments made after this version was published.
 - **2026-09-24:** first published version.
