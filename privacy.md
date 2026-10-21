@@ -1,10 +1,10 @@
 # Privacy Policy: @tul.builds comment replies
 
-**Last updated:** 2026-10-02
+**Last updated:** 2026-10-21
 
-**Effective:** 2026-10-02
+**Effective:** 2026-10-21
 
-**What changed (2026-10-02):** we now list every field the script keeps. Besides the comment ID and your user ID, it also stores when it handled your comment and what it did. Nothing it stores, or how we use it, has changed.
+**What changed (2026-10-21):** a post pinned to the top of the @tul.builds profile is now checked for its keyword even after its first 30 days. Comments still get an answer only within 7 days, and what we store, how we use it and how long we keep it haven't changed.
 
 This policy explains what happens to your information when you comment a keyword on a post by the Instagram account **@tul.builds** and get a message and a reply back. It covers that one thing only.
 
@@ -39,7 +39,7 @@ We have not appointed a representative in the EU or the UK.
 ## 2. How it works
 
 1. You comment on one of @tul.builds's own posts.
-2. An automated script, set up and overseen by the operator and running on the operator's own computer, reads comments on those posts through Meta's official Instagram API. Only posts from the last 30 days are checked for the keyword, and only comments made in the last 7 days get an answer, because Instagram allows a private reply only within 7 days of a comment.
+2. An automated script, set up and overseen by the operator and running on the operator's own computer, reads comments on those posts through Meta's official Instagram API. Only posts from the last 30 days, plus any post pinned to the top of the profile, are checked for the keyword. Only comments made in the last 7 days get an answer, because Instagram allows a private reply only within 7 days of a comment.
 3. If your comment contains that post's keyword, the script:
    - sends you **one** private message (an Instagram "private reply") in plain text: "hey! here's the guide 👇" and a link to the free document (hosted as a secret GitHub gist). The first message the script sends you, and any message sent more than 30 days after its last one to you, also says "reply STOP to opt out" and links this policy.
    - then posts a short public reply to your comment, such as "check your DMs! 📩".
@@ -220,6 +220,7 @@ Because we get your data from Instagram rather than from you directly, the first
 
 Older change notes are listed here, newest first.
 
+- **2026-10-02:** we now list every field the script keeps. Besides the comment ID and your user ID, it also stores when it handled your comment and what it did. Nothing it stores, or how we use it, has changed.
 - **2026-09-24 (second update):** the private message is shorter: "hey! here's the guide 👇" and the link. When it carries the opt-out note and the link to this policy, each now sits on its own line, and the policy link uses a shorter address, supiphat.github.io/legal/privacy. The old address, supiphat.github.io/tul-builds-legal, no longer works. The new message applies only to comments made after this version was published.
 - **2026-09-24 (update):** the private message is now shorter plain text. It shows the link to this policy and how to opt out on the first message we send you, and again if more than 30 days have passed since our last one. If you reply STOP and later comment a keyword again, that comment now counts as a new request: you get the message and come off the do-not-message list. These changes apply only to comments made after this version was published.
 - **2026-09-24:** first published version.
